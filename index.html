@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kwik Side Scroller Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <canvas id="game-canvas" width="960" height="540" aria-label="Side scroller city background"></canvas>
+      <section class="controls" aria-live="polite">
+        <button id="pause-toggle" type="button">Pause</button>
+        <span id="status-text">Running</span>
+      </section>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
